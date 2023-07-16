@@ -45,3 +45,20 @@ public class fib
         }
     }
 }*/
+//Fibonacci number in a range
+public class fib
+{
+    public static void main(String aargs[])
+    {
+        int a=0,b=1,c=0;
+        int start=0,end=40;
+        while(c<=end)
+        {
+            if(c>=start)
+            System.out.print(c+" ");
+            a=b;
+            b=c;
+            c=a+b;
+        } 
+    }
+}
